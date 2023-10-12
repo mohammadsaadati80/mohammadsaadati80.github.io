@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Mohammad Saadati"
-  avatar           : "profile.jpg"
+  avatar           : "profile.jpeg"
   bio              : "Computer Engineering B.Sc. at the University of Tehran"
   location         : "Tehran, Iran"
   employer         :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/mohammad-saadati-1389a31aa"
+  linkedin         : "mohammad-saadati-1389a31aa"
   orcid            : 
   pinterest        :
   soundcloud       :
