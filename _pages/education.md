@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-* BSC. in Computer Engineering (Software Engineering major), College of Electric and Computer Engineering, [University of Tehran](https://ece.ut.ac.ir/en/ece)
+* B.Sc. in Computer Engineering (Software Engineering major), [College of Electrical and Computer Engineering](https://ece.ut.ac.ir/en/ece), University of Tehran 
