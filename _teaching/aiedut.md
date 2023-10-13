@@ -4,7 +4,7 @@ collection: teaching
 type: "Cognitive Systems Lab"
 permalink: /teaching/aiedut
 venue: "University of Tehran, ECE Department"
-date: 2023-09-30
+date: 2023-09-20
 location: "Tehran, Country"
 ---
 
