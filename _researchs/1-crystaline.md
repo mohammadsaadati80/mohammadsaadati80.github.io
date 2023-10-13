@@ -4,7 +4,7 @@ collection: researchs
 type: "Data Analytics Lab"
 permalink: /researchs/crystaline
 venue: "University of Tehran, ECE Department"
-date: 2022
+date: 2022-09-30
 location: "Tehran, Country"
 ---
 
