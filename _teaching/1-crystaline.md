@@ -4,7 +4,7 @@ collection: teaching
 type: "Data Analytics Lab"
 permalink: /teaching/1-crystaline
 venue: "University of Tehran, ECE Department"
-date: 2022
+date: 2022-09-30
 location: "Tehran, Country"
 ---
 
