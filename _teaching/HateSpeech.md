@@ -1,5 +1,5 @@
 ---
-title: "Hate Speech Detecting"
+title: "Hate Speech Detection"
 collection: teaching
 type: "Intelligent Information Systems Lab"
 permalink: /teaching/hatespeech

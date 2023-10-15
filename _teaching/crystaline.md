@@ -1,5 +1,5 @@
 ---
-title: "Crystaline"
+title: "Crystalline"
 collection: teaching
 type: "Data Analytics Lab"
 permalink: /teaching/crystaline
