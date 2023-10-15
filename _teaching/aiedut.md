@@ -1,5 +1,5 @@
 ---
-title: "Education Technology"
+title: "Educational Technology"
 collection: teaching
 type: "Cognitive Systems Lab"
 permalink: /teaching/aiedut
