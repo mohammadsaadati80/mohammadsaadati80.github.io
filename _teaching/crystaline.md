@@ -1,8 +1,8 @@
 ---
 title: "Crystalline"
-collection: teaching
+collection: research
 type: "Data Analytics Lab"
-permalink: /teaching/crystaline
+permalink: /research/crystaline
 venue: "University of Tehran, ECE Department"
 date: 2021-09-30
 location: "Tehran, Country"

@@ -1,8 +1,8 @@
 ---
 title: "Hate Speech Detection"
-collection: teaching
+collection: research
 type: "Intelligent Information Systems Lab"
-permalink: /teaching/hatespeech
+permalink: /research/hatespeech
 venue: "University of Tehran, ECE Department"
 date: 2022-08-01
 location: "Tehran, Country"

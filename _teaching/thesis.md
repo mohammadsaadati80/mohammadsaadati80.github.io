@@ -1,8 +1,8 @@
 ---
 title: "Transfer Learning in Reinforcement Learning"
-collection: teaching
+collection: research
 type: "My Bachelor’s Thesis"
-permalink: /teaching/thesis
+permalink: /research/thesis
 venue: "University of Tehran, ECE Department"
 date: 2024-06-1
 location: "Tehran, Country"

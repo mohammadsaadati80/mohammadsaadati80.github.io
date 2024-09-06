@@ -1,8 +1,8 @@
 ---
 title: "Educational Technology"
-collection: teaching
+collection: research
 type: "Cognitive Systems Lab"
-permalink: /teaching/aiedut
+permalink: /research/aiedut
 venue: "University of Tehran, ECE Department"
 date: 2023-09-20
 location: "Tehran, Country"
