@@ -247,7 +247,7 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-  # _researchs
+  # _research
   - scope:
       path: ""
       type: research
