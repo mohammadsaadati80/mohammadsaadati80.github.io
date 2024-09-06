@@ -4,8 +4,8 @@ collection: teaching
 type: "My Bachelor’s Thesis"
 permalink: /teaching/thesis
 venue: "University of Tehran, ECE Department"
-date: 2023-10-1
+date: 2024-06-1
 location: "Tehran, Country"
 ---
 
-For my bachelor's thesis, I am delving into **Transfer Learning** approaches, focusing on enabling agents to apply knowledge from domains with distinct action spaces. While some exploration has been done on transfer learning with varying dynamics and reward functions, there's a gap in understanding transfers between differing action spaces. Concurrently, I'm tackling the challenge of reinforcement learning's limited **generalization** across diverse environments. By integrating the inherent sequential structure of reinforcement learning into our representation process, I aim to leverage prior knowledge more effectively, presenting an innovative approach to current tasks compared to traditional methods.
+In my bachelor’s thesis, I explored the application of **Transfer Learning** to improve the efficiency of **Reinforcement Learning**, with a particular focus on utilizing **large language models**. Reinforcement Learning often faces challenges, such as extended learning times and difficulty adapting to new problems. My research aimed to address these challenges by using Transfer Learning to facilitate the transfer of knowledge from past experiences to new tasks. By leveraging large language models, I investigated how identifying similarities and differences between previous knowledge and new problems can enhance learning efficiency. The experiments demonstrated that large language models can significantly accelerate learning and improve decision-making, presenting a more efficient approach than traditional Reinforcement Learning techniques.

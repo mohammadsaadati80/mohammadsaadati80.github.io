@@ -18,9 +18,8 @@ My research interests encompass a diverse yet interconnected array of fields wit
 
 * Reinforcement Learning
 * Multi‑Agent Systems
-* Social Learning
-* Adversarial Machine Learning
-* Trustworthy Machine Learning
+* Robotics
+* Large Language Models
 * Natural Language Processing
 
 ## What are my other interests?
