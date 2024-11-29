@@ -19,6 +19,7 @@ My research interests encompass a diverse yet interconnected array of fields wit
 * Reinforcement Learning
 * Multi‑Agent Systems
 * Robotics
+* Generative AI
 * Large Language Models
 * Natural Language Processing
 
