@@ -9,4 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-* B.Sc. in Computer Engineering (Software Engineering major), [College of Electrical and Computer Engineering](https://ece.ut.ac.ir/en/ece), University of Tehran 
+* M.S. in Artificial Intelligence, [Department of AI Convergence](https://ai.gist.ac.kr/aieng/index.do), [Gwangju Institute of Science and Technology (GIST)](https://www.gist.ac.kr/en/) 
+
+* B.Sc. in Computer Engineering, [School of Electrical and Computer Engineering](https://ece.ut.ac.ir/en/ece), [University of Tehran](https://ut.ac.ir/en) 

@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Mohammad Saadati"
 title_separator          : "-"
 name                     : &name "Mohammad Saadati"
-description              : &description "B.Sc. in Computer Engineering (Software Engineering major)"
+description              : &description "M.S. in AI at GIST"
 url                      : https://mohammadsaadati80.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mohammadsaadati80.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Mohammad Saadati"
   avatar           : "profile.jpeg"
-  bio              : "Computer Engineering B.Sc. at the University of Tehran"
-  location         : "Tehran, Iran"
+  bio              : "M.S. in Artificial Intelligence at GIST"
+  location         : "Gwangju, South Korea"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=i3rtnD0AAAAJ"
-  email            : "mohammad.saadati80@gmail.com"
+  email            : "mohammadsaadati@gm.gist.ac.kr"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
