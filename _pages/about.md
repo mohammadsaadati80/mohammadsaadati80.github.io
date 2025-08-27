@@ -10,18 +10,16 @@ redirect_from:
 
 ## Who am I?
 
-I'm Mohammad Saadati, an undergraduate computer engineering student from Tehran, Iran. My journey into software development deepened as I engaged in coding during my academic and personal endeavors. I've developed several open-source projects which I encourage you to read more about on my GitHub page. Presently, I serve as an undergraduate research assistant at the University of Tehran, specializing in Reinforcement Learning and its allied fields.
+I'm Mohammad Saadati, a Master’s student in Artificial Intelligence at the Department of AI Convergence of Gwangju Institute of Science and Technology (GIST). I am currently a Graduate Research Assistant at the Data Science Lab at GIST under the supervision of [Prof. Sundong Kim](https://sundong.kim/), focusing on Reinforcement Learning and its related fields.
 
 ## What are my research interests?
 
 My research interests encompass a diverse yet interconnected array of fields within artificial intelligence and machine learning. The topics that encapsulate my research interests are:
 
 * Reinforcement Learning
-* Multi‑Agent Systems
-* Robotics
-* Generative AI
 * Large Language Models
-* Natural Language Processing
+* Abstraction and Reasoning Corpus
+* Multi‑Agent Systems
 
 ## What are my other interests?
 
