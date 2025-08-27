@@ -10,7 +10,7 @@ redirect_from:
 
 ## Who am I?
 
-I'm Mohammad Saadati, a Master’s student in Artificial Intelligence at the Department of AI Convergence of Gwangju Institute of Science and Technology (GIST). I am currently a Graduate Research Assistant at the Data Science Lab at GIST under the supervision of [Prof. Sundong Kim](https://sundong.kim/), focusing on Reinforcement Learning and its related fields.
+I'm Mohammad Saadati, a master's student in artificial intelligence at the Department of AI Convergence of Gwangju Institute of Science and Technology (GIST). I am currently a graduate research assistant at the Data Science Lab at GIST under the supervision of [Prof. Sundong Kim](https://sundong.kim/), focusing on reinforcement learning and its related fields.
 
 ## What are my research interests?
 
