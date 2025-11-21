@@ -18,7 +18,7 @@ My research interests encompass a diverse yet interconnected array of fields wit
 
 * Reinforcement Learning
 * Large Language Models
-* Abstraction and Reasoning Corpus (ARC-AGI-3)
+* Abstraction and Reasoning Corpus ([ARC-AGI-3)](https://arcprize.org/arc-agi/3/))
 * Multi-Modal and Multi-Agent Systems
 
 ## What are my other interests?
