@@ -3,7 +3,7 @@ title: "ARC-AGI-3: Learning and Planning in Unknown Environments"
 collection: research
 type: "Data Science Lab"
 permalink: /research/arc-agi-3
-venue: "Department of AI Convergence, Gwangju Institute of Science and Technology (GIST)"
+venue: "Department of AI Convergence, GIST"
 date: 2026-01-1
 location: "Gwangju, Country"
 ---
