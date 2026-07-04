@@ -1,0 +1,61 @@
+---
+permalink: /404.html
+layout: null
+sitemap: false
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found · Mohammad Saadati</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <!-- Fallback redirect if JS is disabled -->
+  <meta http-equiv="refresh" content="4; url=/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; min-height: 100vh;
+      background: #faf6ef; color: #2b2620;
+      font-family: Manrope, sans-serif;
+      display: flex; align-items: center; justify-content: center;
+      padding: 32px; box-sizing: border-box;
+    }
+    .card { text-align: center; max-width: 460px; }
+    .code {
+      font-family: Newsreader, serif; font-weight: 500;
+      font-size: 96px; line-height: 1; letter-spacing: -0.02em;
+      color: #c05a3a; margin: 0;
+    }
+    h1 {
+      font-family: Newsreader, serif; font-style: italic; font-weight: 500;
+      font-size: 28px; margin: 14px 0 0;
+    }
+    p { font-size: 15px; line-height: 1.7; color: #6d6355; margin: 12px 0 24px; }
+    .home {
+      display: inline-block; text-decoration: none;
+      color: #faf6ef; background: #c05a3a;
+      font-size: 14px; font-weight: 600;
+      border-radius: 999px; padding: 10px 22px;
+      transition: opacity 0.15s ease;
+    }
+    .home:hover { opacity: 0.85; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <p class="code">404</p>
+    <h1>Page not found</h1>
+    <p>That page doesn&rsquo;t exist. Taking you back to the homepage&hellip;</p>
+    <a class="home" href="/">Back to homepage &rarr;</a>
+  </div>
+  <script>
+    // Redirect to the homepage shortly after landing here.
+    setTimeout(function () { window.location.replace('/'); }, 2500);
+  </script>
+</body>
+</html>
