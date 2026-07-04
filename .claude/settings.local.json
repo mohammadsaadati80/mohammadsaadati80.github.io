@@ -11,7 +11,10 @@
       "Bash(grep -v -E '^\\(\\\\.git|node_modules\\)$')",
       "Bash(git reset *)",
       "Bash(awk '{print $1}')",
-      "Bash(git commit -q -m ' *)"
+      "Bash(git commit -q -m ' *)",
+      "Bash(git -C /mnt/c/Users/Mohammad/Documents/Git/mohammadsaadati80.github.io log --oneline -15)",
+      "Bash(git -C /mnt/c/Users/Mohammad/Documents/Git/mohammadsaadati80.github.io show cf547b8 --stat)",
+      "Bash(git commit -m 'Update font sizes to match updated Claude design *)"
     ]
   }
 }
