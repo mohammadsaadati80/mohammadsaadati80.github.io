@@ -6,12 +6,11 @@
   <title>{{ page.title | default: site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
-  <link rel="icon" type="image/png" href="/images/profile.png">
+  <link rel="icon" type="image/png" href="/images/profile3.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
   <style>
-    * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
     body { margin: 0; background: #faf6ef; color: #2b2620; font-family: Manrope, sans-serif; }
     a { transition: color 0.15s ease, opacity 0.15s ease; }
@@ -48,13 +47,13 @@
 
   <!-- sticky top nav -->
   <nav class="site-nav" style="position: sticky; top: 0; z-index: 50; display: flex; justify-content: space-between; align-items: center; padding: 14px 32px; background: rgba(250,246,239,0.92); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-bottom: 1px solid #e4dccb;">
-    <a href="#sec-about" class="nav-brand" style="font-family: Newsreader, serif; font-weight: 600; font-size: 19px; color: #2b2620; text-decoration: none;">Mohammad Saadati</a>
+    <a href="#about" class="nav-brand" style="font-family: Newsreader, serif; font-weight: 600; font-size: 19px; color: #2b2620; text-decoration: none;">Mohammad Saadati</a>
     <div class="nav-links" style="display: flex; gap: 22px; align-items: center; font-size: 13.5px; font-weight: 600;">
-      <a href="#sec-about" class="nav-link" data-nav="about">About</a>
-      <a href="#sec-education" class="nav-link" data-nav="education">Education</a>
-      <a href="#sec-research" class="nav-link" data-nav="research">Research</a>
-      <a href="#sec-publications" class="nav-link" data-nav="publications">Publications</a>
-      <a href="#sec-beyond" class="nav-link" data-nav="beyond">Off the clock</a>
+      <a href="#about" class="nav-link" data-nav="about">About</a>
+      <a href="#education" class="nav-link" data-nav="education">Education</a>
+      <a href="#research" class="nav-link" data-nav="research">Research</a>
+      <a href="#publications" class="nav-link" data-nav="publications">Publications</a>
+      <a href="#beyond" class="nav-link" data-nav="beyond">Off the clock</a>
       <a href="/files/CV.pdf" class="nav-cv" style="color: #faf6ef; background: #c05a3a; border-radius: 999px; padding: 7px 16px; text-decoration: none;">CV ↓</a>
     </div>
   </nav>
@@ -63,7 +62,7 @@
 
     <!-- hero -->
     <header class="hero" style="display: flex; gap: 28px; align-items: center;">
-      <img src="/images/profile.jpeg" alt="Mohammad Saadati" style="width: 116px; height: 116px; border-radius: 50%; object-fit: cover; object-position: 50% 28%; border: 3px solid #ffffff; box-shadow: 0 2px 10px rgba(60,40,20,0.15); flex: none;">
+      <img src="/images/profile3.png" alt="Mohammad Saadati" style="width: 116px; height: 116px; border-radius: 50%; object-fit: cover; object-position: center; border: 3px solid #ffffff; box-shadow: 0 2px 10px rgba(60,40,20,0.15); flex: none;">
       <div style="display: flex; flex-direction: column; gap: 8px;">
         <h1 style="margin: 0; font-family: Newsreader, serif; font-weight: 500; font-size: 42px; letter-spacing: -0.01em;">Mohammad Saadati</h1>
         <div style="font-size: 14.5px; line-height: 1.5; color: #6d6355;">M.S. student in Artificial Intelligence at GIST · Gwangju, South Korea</div>
@@ -77,19 +76,19 @@
     </header>
 
     <!-- about -->
-    <section id="sec-about" style="display: flex; flex-direction: column; gap: 14px; scroll-margin-top: 84px;">
+    <section id="about" style="display: flex; flex-direction: column; gap: 14px; scroll-margin-top: 84px;">
       <h2 style="margin: 0; font-family: Newsreader, serif; font-style: italic; font-weight: 500; font-size: 26px; border-bottom: 1px solid #e4dccb; padding-bottom: 8px;">About</h2>
       <p style="margin: 0; font-size: 15px; line-height: 1.75; color: #3d362c;">I&rsquo;m a master&rsquo;s student in Artificial Intelligence at the <a href="https://ai.gist.ac.kr/aieng/index.do" style="color: #c05a3a; text-decoration: none; font-weight: 600;">Gwangju Institute of Science and Technology (GIST)</a>, and a graduate research assistant at the <b>Data Science Lab</b> with <a href="https://sundong.kim/" style="color: #c05a3a; text-decoration: none; font-weight: 600;">Prof. Sundong Kim</a>. I work on <b>ARC-AGI-3</b>, building agentic systems that combine <b>reinforcement learning</b> and <b>large language models</b> for stronger reasoning and generalization, targeting state-of-the-art performance on the benchmark.</p>
       <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+        <span style="font-size: 12px; font-weight: 600; color: #6d6355; border: 1px solid #e4dccb; background: #ffffff; border-radius: 999px; padding: 5px 12px;">ARC-AGI-3</span>
         <span style="font-size: 12px; font-weight: 600; color: #6d6355; border: 1px solid #e4dccb; background: #ffffff; border-radius: 999px; padding: 5px 12px;">Reinforcement Learning</span>
         <span style="font-size: 12px; font-weight: 600; color: #6d6355; border: 1px solid #e4dccb; background: #ffffff; border-radius: 999px; padding: 5px 12px;">Large Language Models</span>
-        <span style="font-size: 12px; font-weight: 600; color: #6d6355; border: 1px solid #e4dccb; background: #ffffff; border-radius: 999px; padding: 5px 12px;">ARC-AGI-3</span>
         <span style="font-size: 12px; font-weight: 600; color: #6d6355; border: 1px solid #e4dccb; background: #ffffff; border-radius: 999px; padding: 5px 12px;">Multi-Modal &amp; Multi-Agent Systems</span>
       </div>
     </section>
 
     <!-- education -->
-    <section id="sec-education" style="display: flex; flex-direction: column; gap: 16px; scroll-margin-top: 84px;">
+    <section id="education" style="display: flex; flex-direction: column; gap: 16px; scroll-margin-top: 84px;">
       <h2 style="margin: 0; font-family: Newsreader, serif; font-style: italic; font-weight: 500; font-size: 26px; border-bottom: 1px solid #e4dccb; padding-bottom: 8px;">Education</h2>
       <div style="display: flex; gap: 18px; align-items: baseline;">
         <div style="font-size: 13px; font-weight: 600; color: #a2947e; width: 100px; flex: none;">2025 &mdash; now</div>
@@ -102,33 +101,33 @@
     </section>
 
     <!-- research -->
-    <section id="sec-research" style="display: flex; flex-direction: column; gap: 18px; scroll-margin-top: 84px;">
+    <section id="research" style="display: flex; flex-direction: column; gap: 18px; scroll-margin-top: 84px;">
       <h2 style="margin: 0; font-family: Newsreader, serif; font-style: italic; font-weight: 500; font-size: 26px; border-bottom: 1px solid #e4dccb; padding-bottom: 8px;">Research</h2>
       <div class="research-grid" style="display: grid; grid-template-columns: 100px 1fr; gap: 20px 18px;">
         <div class="research-year" style="color: #a2947e; font-weight: 600; font-size: 14px;">2026</div>
-        <div><div style="font-size: 16px; font-weight: 700;">ARC-AGI-3: learning &amp; planning in unknown environments</div><div style="font-size: 12.5px; font-weight: 600; color: #a2947e; margin-top: 2px;">Data Science Lab · GIST</div><div style="font-size: 14px; line-height: 1.6; color: #6d6355; margin-top: 3px;">Agentic systems combining RL, search and memory for interactive games with no external supervisor; LLM-synthesized world models for planning. <a href="#sec-research" class="detail-toggle" data-target="arc" style="color: #c05a3a; text-decoration: none; font-weight: 700; white-space: nowrap;">More ↓</a></div>
+        <div><div style="font-size: 16px; font-weight: 700;">ARC-AGI-3: learning &amp; planning in unknown environments</div><div style="font-size: 12.5px; font-weight: 600; color: #a2947e; margin-top: 2px;">Data Science Lab · GIST</div><div style="font-size: 14px; line-height: 1.6; color: #6d6355; margin-top: 3px;">Agentic systems combining RL, search and memory for interactive games with no external supervisor; LLM-synthesized world models for planning. <a href="#research" class="detail-toggle" data-target="arc" style="color: #c05a3a; text-decoration: none; font-weight: 700; white-space: nowrap;">More ↓</a></div>
         <div class="detail-panel" data-panel="arc" style="margin-top: 10px; background: #ffffff; border: 1px solid #e4dccb; border-radius: 10px; padding: 14px 16px; font-size: 13.5px; line-height: 1.7; color: #6d6355;"><a href="https://arcprize.org/arc-agi/3" style="color: #c05a3a; text-decoration: none; font-weight: 600;">ARC-AGI-3</a> is a benchmark of interactive games where an agent must infer mechanics and goals purely through interaction, under offline evaluation constraints with no external supervisor. My main focus is developing agentic systems that combine <b style="color: #3d362c;">reinforcement learning</b>, <b style="color: #3d362c;">search</b>, and <b style="color: #3d362c;">case-based memory</b> for efficient decision-making and generalization, targeting state-of-the-art performance. I am also investigating the use of <b style="color: #3d362c;">large language models</b> to synthesize executable world models from interaction traces to support downstream planning.</div></div>
 
         <div class="research-year" style="color: #a2947e; font-weight: 600; font-size: 14px;">2024</div>
-        <div><div style="font-size: 16px; font-weight: 700;">Transfer learning in RL using LLMs</div><div style="font-size: 12.5px; font-weight: 600; color: #a2947e; margin-top: 2px;">Bachelor&rsquo;s Thesis · University of Tehran</div><div style="font-size: 14px; line-height: 1.6; color: #6d6355; margin-top: 3px;">Bachelor&rsquo;s thesis: LLMs identify similarities between past knowledge and new tasks to accelerate RL. <a href="#sec-research" class="detail-toggle" data-target="thesis" style="color: #c05a3a; text-decoration: none; font-weight: 700; white-space: nowrap;">More ↓</a></div>
+        <div><div style="font-size: 16px; font-weight: 700;">Transfer learning in RL using LLMs</div><div style="font-size: 12.5px; font-weight: 600; color: #a2947e; margin-top: 2px;">Bachelor&rsquo;s Thesis · University of Tehran</div><div style="font-size: 14px; line-height: 1.6; color: #6d6355; margin-top: 3px;">Bachelor&rsquo;s thesis: LLMs identify similarities between past knowledge and new tasks to accelerate RL. <a href="#research" class="detail-toggle" data-target="thesis" style="color: #c05a3a; text-decoration: none; font-weight: 700; white-space: nowrap;">More ↓</a></div>
         <div class="detail-panel" data-panel="thesis" style="margin-top: 10px; background: #ffffff; border: 1px solid #e4dccb; border-radius: 10px; padding: 14px 16px; font-size: 13.5px; line-height: 1.7; color: #6d6355;"><b style="color: #3d362c;">Reinforcement learning</b> often faces long training times and difficulty adapting to new problems. My thesis applied <b style="color: #3d362c;">transfer learning</b> to carry knowledge from past experience into new tasks, using <b style="color: #3d362c;">large language models</b> to identify similarities and differences between prior knowledge and the new problem. Experiments showed that LLMs can significantly accelerate learning and improve decision-making compared to traditional RL techniques. <a href="/files/Bachelor_Thesis_Poster.pdf" style="color: #c05a3a; text-decoration: none; font-weight: 600;">Poster →</a></div></div>
 
         <div class="research-year" style="color: #a2947e; font-weight: 600; font-size: 14px;">2023</div>
-        <div><div style="font-size: 16px; font-weight: 700;">Educational technology</div><div style="font-size: 12.5px; font-weight: 600; color: #a2947e; margin-top: 2px;">Cognitive Systems Lab · University of Tehran</div><div style="font-size: 14px; line-height: 1.6; color: #6d6355; margin-top: 3px;">Adaptive learning with RL, LLM fine-tuning &amp; RLHF for educational content, and a custom LMS. <a href="#sec-research" class="detail-toggle" data-target="edtech" style="color: #c05a3a; text-decoration: none; font-weight: 700; white-space: nowrap;">More ↓</a></div>
+        <div><div style="font-size: 16px; font-weight: 700;">Educational technology</div><div style="font-size: 12.5px; font-weight: 600; color: #a2947e; margin-top: 2px;">Cognitive Systems Lab · University of Tehran</div><div style="font-size: 14px; line-height: 1.6; color: #6d6355; margin-top: 3px;">Adaptive learning with RL, LLM fine-tuning &amp; RLHF for educational content, and a custom LMS. <a href="#research" class="detail-toggle" data-target="edtech" style="color: #c05a3a; text-decoration: none; font-weight: 700; white-space: nowrap;">More ↓</a></div>
         <div class="detail-panel" data-panel="edtech" style="margin-top: 10px; background: #ffffff; border: 1px solid #e4dccb; border-radius: 10px; padding: 14px 16px; font-size: 13.5px; line-height: 1.7; color: #6d6355;">We researched <b style="color: #3d362c;">reinforcement learning</b> for tailored adaptive learning systems and used <b style="color: #3d362c;">LLMs</b> — via fine-tuning and <b style="color: #3d362c;">RLHF</b> — to produce bespoke educational content. We also introduced a novel pedagogy model for deeper learning and built a learning management system with Python, Django, Bootstrap and JavaScript, integrating an optimized ChatGPT with Google Classroom alongside tools like Discord and AI-based robots. <a href="https://aiedut.com/" style="color: #c05a3a; text-decoration: none; font-weight: 600;">Website →</a></div></div>
 
         <div class="research-year" style="color: #a2947e; font-weight: 600; font-size: 14px;">2022</div>
-        <div><div style="font-size: 16px; font-weight: 700;">Hate speech detection</div><div style="font-size: 12.5px; font-weight: 600; color: #a2947e; margin-top: 2px;">Intelligent Information Systems Lab · University of Tehran</div><div style="font-size: 14px; line-height: 1.6; color: #6d6355; margin-top: 3px;">Jointly trained GCN + BERT over a heterogeneous multilingual graph of words, tweets and hashtags. <a href="#sec-research" class="detail-toggle" data-target="hate" style="color: #c05a3a; text-decoration: none; font-weight: 700; white-space: nowrap;">More ↓</a></div>
+        <div><div style="font-size: 16px; font-weight: 700;">Hate speech detection</div><div style="font-size: 12.5px; font-weight: 600; color: #a2947e; margin-top: 2px;">Intelligent Information Systems Lab · University of Tehran</div><div style="font-size: 14px; line-height: 1.6; color: #6d6355; margin-top: 3px;">Jointly trained GCN + BERT over a heterogeneous multilingual graph of words, tweets and hashtags. <a href="#research" class="detail-toggle" data-target="hate" style="color: #c05a3a; text-decoration: none; font-weight: 700; white-space: nowrap;">More ↓</a></div>
         <div class="detail-panel" data-panel="hate" style="margin-top: 10px; background: #ffffff; border: 1px solid #e4dccb; border-radius: 10px; padding: 14px 16px; font-size: 13.5px; line-height: 1.7; color: #6d6355;">We jointly trained <b style="color: #3d362c;">GCN (Graph Convolutional Networks)</b> and <b style="color: #3d362c;">BERT</b> to detect hate speech. Documents are represented as nodes in a heterogeneous multilayer graph of words, tweets and hashtags, with inter-layer edges denoting semantic equivalence across languages — allowing local and global information to interact in a comprehensive classification representation.</div></div>
 
         <div class="research-year" style="color: #a2947e; font-weight: 600; font-size: 14px;">2021</div>
-        <div><div style="font-size: 16px; font-weight: 700;">Crystalline</div><div style="font-size: 12.5px; font-weight: 600; color: #a2947e; margin-top: 2px;">Data Analytics Lab · University of Tehran</div><div style="font-size: 14px; line-height: 1.6; color: #6d6355; margin-top: 3px;">Proof-of-concept cryptocurrency in pure Python with a novel proof-of-activity consensus. <a href="#sec-research" class="detail-toggle" data-target="crystal" style="color: #c05a3a; text-decoration: none; font-weight: 700; white-space: nowrap;">More ↓</a></div>
+        <div><div style="font-size: 16px; font-weight: 700;">Crystalline</div><div style="font-size: 12.5px; font-weight: 600; color: #a2947e; margin-top: 2px;">Data Analytics Lab · University of Tehran</div><div style="font-size: 14px; line-height: 1.6; color: #6d6355; margin-top: 3px;">Proof-of-concept cryptocurrency in pure Python with a novel proof-of-activity consensus. <a href="#research" class="detail-toggle" data-target="crystal" style="color: #c05a3a; text-decoration: none; font-weight: 700; white-space: nowrap;">More ↓</a></div>
         <div class="detail-panel" data-panel="crystal" style="margin-top: 10px; background: #ffffff; border: 1px solid #e4dccb; border-radius: 10px; padding: 14px 16px; font-size: 13.5px; line-height: 1.7; color: #6d6355;">We developed a proof-of-concept <b style="color: #3d362c;">cryptocurrency</b> in pure Python, introducing a unique <b style="color: #3d362c;">proof of activity (PoA)</b> consensus protocol crafted to combine the advantages of both PoS and PoA. <a href="https://github.com/Crystalline-Coin/crystalline" style="color: #c05a3a; text-decoration: none; font-weight: 600;">Repo →</a></div></div>
       </div>
     </section>
 
     <!-- publications -->
-    <section id="sec-publications" style="display: flex; flex-direction: column; gap: 20px; scroll-margin-top: 84px;">
+    <section id="publications" style="display: flex; flex-direction: column; gap: 20px; scroll-margin-top: 84px;">
       <h2 style="margin: 0; font-family: Newsreader, serif; font-style: italic; font-weight: 500; font-size: 26px; border-bottom: 1px solid #e4dccb; padding-bottom: 8px;">Publications</h2>
       <div style="font-size: 15px; line-height: 1.6;"><b>A Non-LLM Graph-Search Agent for ARC-AGI-3 with Novelty-Guided Exploration and Case-Based Memory</b><br><u>Mohammad Saadati</u>, Laura Mascarell, Sundong Kim
         <div style="display: flex; gap: 8px; align-items: center; margin-top: 8px;">
@@ -147,7 +146,7 @@
     </section>
 
     <!-- off the clock -->
-    <section id="sec-beyond" style="display: flex; flex-direction: column; gap: 12px; scroll-margin-top: 84px;">
+    <section id="beyond" style="display: flex; flex-direction: column; gap: 12px; scroll-margin-top: 84px;">
       <h2 style="margin: 0; font-family: Newsreader, serif; font-style: italic; font-weight: 500; font-size: 26px; border-bottom: 1px solid #e4dccb; padding-bottom: 8px;">Off the clock</h2>
       <p style="margin: 0; font-size: 14.5px; line-height: 1.7; color: #3d362c;">Lifelong football fan — <b>Hala Madrid</b> ⚽ — and an avid FPS gamer, usually somewhere on a Battlefield server.</p>
     </section>
@@ -161,7 +160,7 @@
           <a href="https://www.linkedin.com/in/mohammad-saadati-1389a31aa" style="color: #c05a3a; text-decoration: none;">LinkedIn</a>
           <a href="/files/CV.pdf" style="color: #c05a3a; text-decoration: none;">CV</a>
         </div>
-        <a href="#sec-about" class="back-to-top" style="font-size: 13px; font-weight: 600; color: #6d6355; text-decoration: none; white-space: nowrap;">Back to top ↑</a>
+        <a href="#about" class="back-to-top" style="font-size: 13px; font-weight: 600; color: #6d6355; text-decoration: none; white-space: nowrap;">Back to top ↑</a>
       </div>
       <div style="font-size: 12.5px; color: #a2947e;">© 2026 Mohammad Saadati · Last updated: July 2026</div>
     </footer>
@@ -201,7 +200,7 @@
     function onScroll() {
       var cur = ids[0];
       for (var i = 0; i < ids.length; i++) {
-        var el = document.getElementById('sec-' + ids[i]);
+        var el = document.getElementById(ids[i]);
         if (el && el.getBoundingClientRect().top < 150) cur = ids[i];
       }
       if (cur !== current) {
